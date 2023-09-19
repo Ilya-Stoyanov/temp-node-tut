@@ -1,0 +1,1 @@
+Here is the result : first text in the file Hello this is secont txt file
