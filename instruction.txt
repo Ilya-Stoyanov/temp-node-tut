@@ -1,0 +1,52 @@
+`*****************`
+repo 
+https://github.com/john-smilga/node-express-course/tree/main
+
+documentation 
+
+https://nodejs.org/docs/v14.15.0/api/fs.html 
+
+
+
+https://nodesource.com/blog/the-basics-of-package-json/ 
+
+node
+
+rep - exist ctrl + D
+
+`******* Global - no Window **********`
+__dirname - part to current directory
+__filenamw - file name
+
+// require - fn to use modules (Common Js)
+// modules - info about current module (file)
+// process - info about envn where the program is being executed
+
+// CommonJS, every file is module (by default)
+// Modules - Encapsulated Code (only share minimum)
+
+NPM comand
+
+npm --v
+
+local dependency - use it only this project
+
+global dependency - use it in any project
+
+npm i -g pacajeName
+
+==============================
+first package json
+
+1. npm init or npm init -y
+2. npm lodash
+3. npm i bootstrap@4.6.0
+4. npm i nodemon -D or --save-dev
+
+"scripts": {
+    "start": "node app.js", // we add my command 
+    "dev": "nodemon app.js"
+  },
+
+5.  npm uninstall bootstrap 
+
