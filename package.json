@@ -1,20 +1,18 @@
 {
-  "name": "tutorial-01",
+  "name": "2-express-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "02-globals.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "dev": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.6.0",
-    "lodash": "^4.17.21"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^2.0.7"
   }
 }
